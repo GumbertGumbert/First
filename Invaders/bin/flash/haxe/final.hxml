@@ -11,6 +11,6 @@
 -D web
 -swf-version 11.2
 -swf bin/flash/bin/Invaders.swf
--swf-header 500:500:60:CCCCCC
+-swf-header 500:500:60:FFFFFF
 -cp bin/flash/haxe
 -D final

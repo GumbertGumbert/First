@@ -8,7 +8,7 @@
 	<!-- output -->
 	<app main="Main" file="Invaders" path="bin" />
 	
-	<window background="#cccccc" fps="60" />
+	<window background="#ffffff" fps="60" />
 	<window width="500" height="500" unless="mobile" />
 	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
 	

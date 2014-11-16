@@ -15,5 +15,10 @@ class Player extends Sprite
 		this.graphics.drawRect(20, 0, 10, -10);
 		this.graphics.endFill();
 	}
-	
+		public function killZone(x:Float, y:Float):Bool
+	{
+		if (((this.x<(x+10))&&((this.x+50)>x))&&(((this.y+25)>y)&&(this.y<(y+6))))
+		return true;
+		else return false;
+	}
 }
